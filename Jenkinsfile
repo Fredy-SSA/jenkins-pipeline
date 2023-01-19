@@ -21,7 +21,7 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
                 sh 'ls -lah'
                 sh 'cat ./test'
-                sh 'cat ./test2'
+                
                 
                 
             }
