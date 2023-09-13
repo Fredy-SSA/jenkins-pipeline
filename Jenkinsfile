@@ -21,6 +21,7 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
                 sh 'ls -lah'
                 sh 'hostname'
+                sh 'balarie'
              
                 
                 
