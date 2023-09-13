@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh './jenkins/scripts/test.sh'
 
-                sh 'balarie'
+                sh 'hostname'
              
                 
                 
