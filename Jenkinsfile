@@ -21,6 +21,9 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
 
                 sh 'hostname'
+                sh 'ls -lah'
+                sh 'ping google.ro'
+                sh 'ls /alin'   
              
                 
                 
