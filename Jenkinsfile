@@ -22,8 +22,7 @@ pipeline {
 
                 sh 'hostname'
                 sh 'ls -lah'
-                sh 'ping google.ro'
-                sh 'ls /alin'   
+
              
                 
                 
