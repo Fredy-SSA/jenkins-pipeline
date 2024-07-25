@@ -22,6 +22,7 @@ pipeline {
 
                 sh 'hostname'
                 sh 'ls -lah'
+                sh 'aiurea'
 
              
                 
