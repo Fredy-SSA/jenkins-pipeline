@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:latest'
+            image 'node:22.16'
             args '--rm -it --name myapp -p 3000:3000'
 
         }
