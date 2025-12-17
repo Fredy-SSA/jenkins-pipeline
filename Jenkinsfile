@@ -22,7 +22,7 @@ pipeline {
 
                 sh 'hostname'
                 sh 'ls -lah' 
-                eroare
+                sh 'eroare'
                 
              
                 
